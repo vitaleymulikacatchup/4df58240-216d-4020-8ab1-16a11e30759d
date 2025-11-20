@@ -525,7 +525,6 @@ export default function LandingPage() {
               ]
             }
           ]}
-          brandName="F1 Teams Hub"
           copyrightText="© 2024 | F1 Teams Hub"
         />
       </div>
