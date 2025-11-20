@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -7,7 +7,7 @@ import AboutFeature from '@/components/sections/about/AboutFeature';
 import FeatureCardSeven from '@/components/sections/feature/FeatureCardSeven';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import PricingCardThree from '@/components/sections/pricing/PricingCardThree';
-import MetricCardTwo from '@/components/sections/metric/MetricCardTwo';
+import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
 import TestimonialCardThree from '@/components/sections/testimonial/TestimonialCardThree';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
@@ -15,7 +15,7 @@ import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import BlogCardOne from '@/components/sections/blog/BlogCardOne';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
-import { Crown, Github, Globe, Instagram, Linkedin, MessageCircle, Newspaper, Settings, Shield, ShoppingBag, Star, Target, TrendingUp, Trophy, Twitter, Users, User, Zap } from "lucide-react";
+import { Crown, Github, Globe, Instagram, Linkedin, MessageCircle, Newspaper, Settings, Shield, ShoppingBag, Star, Target, TrendingUp, Trophy, Twitter, User, Users, Zap } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -284,8 +284,8 @@ export default function LandingPage() {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763642499171-0aoblprx.jpg",
               imageAlt: "Marcus Weber, Chief Race Engineer",
               socialLinks: [
-                { icon: "Linkedin", url: "https://linkedin.com" },
-                { icon: "Twitter", url: "https://twitter.com" }
+                { icon: Linkedin, url: "https://linkedin.com" },
+                { icon: Twitter, url: "https://twitter.com" }
               ]
             },
             {
@@ -296,8 +296,8 @@ export default function LandingPage() {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763642500535-1qrma8wu.jpg",
               imageAlt: "Sarah Chen, Technical Director",
               socialLinks: [
-                { icon: "Linkedin", url: "https://linkedin.com" },
-                { icon: "Globe", url: "https://example.com" }
+                { icon: Linkedin, url: "https://linkedin.com" },
+                { icon: Globe, url: "https://example.com" }
               ]
             },
             {
@@ -308,7 +308,7 @@ export default function LandingPage() {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763642501840-380azprm.jpg",
               imageAlt: "Alessandro Rossi, Head Mechanic",
               socialLinks: [
-                { icon: "Instagram", url: "https://instagram.com" }
+                { icon: Instagram, url: "https://instagram.com" }
               ]
             },
             {
@@ -319,8 +319,8 @@ export default function LandingPage() {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763642502952-05bx0i5i.jpg",
               imageAlt: "Emma Thompson, Data Analyst",
               socialLinks: [
-                { icon: "Linkedin", url: "https://linkedin.com" },
-                { icon: "Github", url: "https://github.com" }
+                { icon: Linkedin, url: "https://linkedin.com" },
+                { icon: Github, url: "https://github.com" }
               ]
             }
           ]}
